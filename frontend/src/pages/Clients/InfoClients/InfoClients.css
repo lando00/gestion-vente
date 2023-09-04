@@ -1,0 +1,16 @@
+.info-clients p{
+    font-size: 0.85rem;
+    color: #333333ad;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.info-clients span{
+    font-weight: bold;
+    color: #333333d8;
+    margin-left: 10px;
+}
+
+.info-clients .somme-total{
+    margin-bottom: 0;
+}

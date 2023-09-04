@@ -1,0 +1,25 @@
+.barre-recherche{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.barre-recherche input{
+    border: none;
+    border-bottom: 1px solid #d1cfcf;
+    outline: none;
+    color: #424242;
+    font-size: 0.85rem;
+    padding: 10px 25px 10px 38px;
+    width: 230px;
+}
+
+.barre-recherche input:focus{
+    border-bottom: 1px solid #2196f3!important;
+}
+
+.barre-recherche svg{
+    color: #757575!important;
+    position: absolute;
+    top: 8px;
+    right: 204px;
+}

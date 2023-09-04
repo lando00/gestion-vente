@@ -1,0 +1,34 @@
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+
+
+.point{
+    width: 7px;
+    height: 7px;
+    background-color: #333333ad;
+    border-radius: 50%;
+    margin: 5px;
+    animation: anim 0.5s ease-in-out infinite alternate;
+}
+
+.point1{
+    animation-delay: -0.3s;
+}
+
+.point2{
+    animation-delay: -0.15s;
+}
+
+@keyframes anim {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

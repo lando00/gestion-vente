@@ -1,0 +1,18 @@
+.tab-materiel-acheter .cellules{
+    width: 16.5%;
+}
+
+.tab-materiel-acheter{
+    height: 300px;
+}
+
+.tab-materiel-acheter .entree span{
+    font-weight: normal;
+    font-weight: 0.8rem;
+}
+
+.tab-materiel-acheter .titre span{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #333333ad;
+}

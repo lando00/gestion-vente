@@ -1,0 +1,11 @@
+.tab-chiffre-affaire {
+    height: 389px;
+}
+
+.tab-chiffre-affaire .cellules {
+    width: 33.33%;
+}
+
+.tab-chiffre-affaire .titres, .tab-chiffre-affaire .entree{
+    padding-left: 15%;
+}

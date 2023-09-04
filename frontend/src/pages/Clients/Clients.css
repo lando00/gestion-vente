@@ -1,0 +1,37 @@
+.clients{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sous-menu{
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    border-bottom: 1px solid #d1cfcf;
+    margin-bottom: 25px;
+}
+
+.sous-menu li {
+    list-style-type: none;
+    margin-right: 20px;
+    padding-bottom: 8px;
+}
+
+.sous-menu li a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #333333ad;
+    padding: 0px 16px 8px 16px;
+}
+
+.sous-menu li .active{
+    color: #2196f3;
+    border-bottom: 1px solid #2196f3;
+}
+
+.sous-menu li a:hover{
+    color: #2196f3;
+}

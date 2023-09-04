@@ -1,0 +1,38 @@
+{
+  "name": "react-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^3.1.12",
+    "axios": "^1.4.0",
+    "chart.js": "^4.3.0",
+    "countup.js": "^2.6.2",
+    "nombre-en-toutes-lettres": "^1.1.0",
+    "qs": "^6.11.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-pdf": "^7.0.3",
+    "react-router-dom": "^6.11.2",
+    "react-to-print": "^2.14.13",
+    "sweetalert2": "^11.7.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^4.3.2"
+  }
+}

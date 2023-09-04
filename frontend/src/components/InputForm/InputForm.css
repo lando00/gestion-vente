@@ -1,0 +1,36 @@
+.input-form{
+    position: relative;
+    margin-top: 60px;
+}
+
+.input-form label{
+    position: absolute;
+    color: #333333ad;
+    font-size: 0.95rem;
+    bottom: 30px
+}
+
+
+.input-form input{
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #d1cfcf;
+    padding-bottom: 8px;
+    font-size: 0.85rem;
+}
+
+.input-form input:focus{
+    border-bottom: 1px solid #2196f3!important;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px
+}
+
+.btn-group .btn{
+    margin-left: 15px;
+    
+} 

@@ -1,0 +1,30 @@
+.card-dashboard{
+    width: 23.5%;
+    height: 90px;
+    background-color: #fff;
+    border : 1px solid #d1cfcf;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.card-dashboard p {
+    font-size: 0.9rem;
+    color: #333333ad;
+    margin-bottom: 10px;
+}
+
+.card-dashboard span{
+    font-weight: bold;
+    color: #333333d8;
+    font-size: 0.8rem;
+}
+
+.card-dashboard svg{
+    position: absolute;
+    right: 20px;
+    font-size: 1.3rem;
+}

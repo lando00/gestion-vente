@@ -1,0 +1,8 @@
+.pasDeResultat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    color: #333333ad;
+    height: 80%;
+}

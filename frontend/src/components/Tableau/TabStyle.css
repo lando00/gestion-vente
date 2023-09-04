@@ -1,0 +1,51 @@
+.tableau{
+    height: 400px;
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid #d1cfcf;
+    border-radius: 5px;
+    box-shadow : 0px 3px 5px rgba(0, 0, 0, 0.2);
+    overflow: auto; 
+    overflow-x: hidden;
+    position: relative;
+}
+
+.tableau .titres, .tableau .entree{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #333333ad;
+    padding: 13px 25px;
+    padding-right: 0px;
+    border-bottom: 1px solid #d1cfcf;
+}
+
+.tableau .titres{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.tableau .entree{
+    font-weight: normal;
+    font-size: 0.85rem;
+}
+
+.cellules{
+    display: inline-block;
+}
+
+.cellules span svg{
+    font-size: 1rem;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+
+.tableau::-webkit-scrollbar{
+    width: 5px;
+
+}
+
+.tableau::-webkit-scrollbar-thumb{
+    background-color: #d1cfcf;
+}

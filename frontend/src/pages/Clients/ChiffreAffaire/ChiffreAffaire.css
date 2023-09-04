@@ -1,0 +1,47 @@
+.chiffre-affaire{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+
+.chiffre-affaire .annee{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chiffre-affaire .annee span{
+    font-size: 0.85rem;
+    color: #333333ad;
+    align-self: center;
+    margin-right: 10px;
+}
+
+.chiffre-affaire .annee select{
+    width: 75px;
+    border: 1px solid #d1cfcf;
+    font-size: 0.85rem;
+    padding: 3px;
+    border-radius: 3px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.footer{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .somme-total{
+    font-size: 0.85rem;
+    color: #333333ad;
+}
+
+.footer span{
+    font-weight: bold;
+    color: #333333d8;
+}

@@ -1,0 +1,33 @@
+.facture label{
+    font-size: 0.85rem;
+    color: #333333ad;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.facture select{
+    width: 75px;
+    border: 1px solid #d1cfcf;
+    font-size: 0.85rem;
+    padding: 3px;
+    border-radius: 3px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.facture{
+    position: relative;
+}
+
+.facture .annee{
+    display: inline-block;
+    position: absolute;
+    top:30px;
+    right: 0;
+}
+
+.facture .btn{
+    margin-left: auto;
+    display: block;
+    margin-top: 30px;
+}

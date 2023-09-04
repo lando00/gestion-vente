@@ -1,0 +1,10 @@
+.nouveau-clients {
+    display: flex;
+    justify-content: center;  
+    height: 100%; 
+}
+
+.nouveau-clients .form{
+  width: 500px;
+  margin-top: 20px;
+}

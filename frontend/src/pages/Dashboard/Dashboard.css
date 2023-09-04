@@ -1,0 +1,34 @@
+.dashboard{
+    flex: 1;
+}
+
+.dashboard .card-container{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard .histogramme{
+    /* margin-top: 65px; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.titre-histogramme {
+    margin-top: 65px;
+    text-align: center;
+    font-size: 1rem;
+    color: #333333ad;
+    margin-bottom: 10px;
+}
+
+.titre-histogramme select{
+    margin-left: 15px;
+    width: auto;
+    border: 1px solid #d1cfcf;
+    font-size: 0.85rem;
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+}

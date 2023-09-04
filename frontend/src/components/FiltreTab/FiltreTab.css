@@ -1,0 +1,32 @@
+.filtre-tab{
+    padding-left: 25px;
+}
+
+.filtre-tab span, .filtre-tab label{
+    font-size: 0.85rem;
+    color: #333333ad;
+    align-self: center;
+}
+
+.filtre-tab label{
+    margin-right: 10px;
+}
+
+.filtre-tab span{
+    margin: 0 40px;
+    font-weight: normal;
+}
+
+.filtre-tab input , .filtre-tab select{
+    width: auto;
+    border: 1px solid #d1cfcf;
+    font-size: 0.85rem;
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+    
+}
+
+.filtre-tab input{
+    width: auto;
+}

@@ -1,0 +1,39 @@
+.nouveau-vente{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.nouveau-vente .annee{
+    display: flex;
+    margin-left: 65px;
+}
+
+.nouveau-vente p{
+    margin-bottom: 0px;
+}
+
+.nouveau-vente select, .choix-materiel{
+    margin-left: 15px;
+    width: auto;
+    border: 1px solid #d1cfcf;
+    font-size: 0.85rem;
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.choix-materiel {
+    margin-left: 0px;
+    width: 100%;
+    padding: 8px 8px;
+}
+
+.effectuer-vente .btn .btn{
+    margin-left: 10px;
+}
+
+.label-choix-materiel{
+    font-size: 0.85rem;
+    color: #333333ad;
+    margin-bottom: 10px
+}

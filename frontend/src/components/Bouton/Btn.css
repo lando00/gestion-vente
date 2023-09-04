@@ -1,0 +1,36 @@
+.btn{
+    padding: 8px 15px ;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-vert{
+    background-color: #4CAF50;
+   
+}
+
+.btn-vert .btn-handle-clicked{
+    background-color: #3e8e41;
+    cursor: auto;
+}
+
+.btn-vert:hover {
+    background-color: #3e8e41
+}
+
+.btn-rouge{
+    background-color: #f44336;
+}
+
+.btn-rouge:hover {
+    background-color: #ce392f;
+}
+
+.btn a {
+    text-decoration: none;
+    color : #fff!important;
+}
